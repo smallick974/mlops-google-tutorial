@@ -1,0 +1,24 @@
+2023-10-13 06:53:12,696 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
+2023-10-13 06:53:12,710 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'get_iam_policy']
+2023-10-13 06:53:12,713 DEBUG    root            Running [gcloud.projects.get-iam-policy] with arguments: [--filter: "bindings.members:1181571513-compute@developer.gserviceaccount.com", --format: "table(bindings.role)", PROJECT_ID_OR_NUMBER: "ml-pipeline-project-401216"]
+2023-10-13 06:53:12,742 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/1181571513-compute@developer.gserviceaccount.com/?recursive=true
+2023-10-13 06:53:12,745 DEBUG    urllib3.connectionpool Starting new HTTP connection (1): metadata.google.internal:80
+2023-10-13 06:53:12,747 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/1181571513-compute@developer.gserviceaccount.com/?recursive=true HTTP/1.1" 200 152
+2023-10-13 06:53:12,748 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/1181571513-compute@developer.gserviceaccount.com/token
+2023-10-13 06:53:12,751 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/1181571513-compute@developer.gserviceaccount.com/token HTTP/1.1" 200 866
+2023-10-13 06:53:12,766 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/1181571513-compute@developer.gserviceaccount.com/?recursive=true
+2023-10-13 06:53:12,768 DEBUG    urllib3.connectionpool Starting new HTTP connection (1): metadata.google.internal:80
+2023-10-13 06:53:12,770 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/1181571513-compute@developer.gserviceaccount.com/?recursive=true HTTP/1.1" 200 152
+2023-10-13 06:53:12,770 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/1181571513-compute@developer.gserviceaccount.com/token
+2023-10-13 06:53:12,773 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/1181571513-compute@developer.gserviceaccount.com/token HTTP/1.1" 200 866
+2023-10-13 06:53:12,785 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2023-10-13 06:53:12,916 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "POST /v1/projects/ml-pipeline-project-401216:getIamPolicy?alt=json HTTP/1.1" 200 None
+2023-10-13 06:53:12,922 DEBUG    root            Chosen display Format:default table(bindings.role)
+2023-10-13 06:53:12,925 INFO     root            Display format: "default table(bindings.role)"
+2023-10-13 06:53:12,931 INFO     ___FILE_ONLY___ ROLE
+2023-10-13 06:53:12,932 INFO     ___FILE_ONLY___ 
+
+2023-10-13 06:53:12,932 INFO     ___FILE_ONLY___ ['roles/aiplatform.customCodeServiceAgent', 'roles/aiplatform.serviceAgent', 'roles/bigquery.admin', 'roles/cloudbuild.builds.builder', 'roles/cloudbuild.serviceAgent', 'roles/cloudfunctions.serviceAgent', 'roles/composer.serviceAgent', 'roles/compute.serviceAgent', 'roles/container.serviceAgent', 'roles/containerregistry.ServiceAgent', 'roles/dataflow.serviceAgent', 'roles/editor', 'roles/notebooks.serviceAgent', 'roles/owner', 'roles/pubsub.serviceAgent', 'roles/run.admin', 'roles/storage.objectAdmin']
+2023-10-13 06:53:12,932 INFO     ___FILE_ONLY___ 
+
+2023-10-13 06:53:12,932 DEBUG    root            SDK update checks are disabled.

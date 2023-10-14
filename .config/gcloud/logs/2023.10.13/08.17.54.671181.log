@@ -1,0 +1,8 @@
+2023-10-13 08:17:54,673 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2023-10-13 08:17:54,678 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'list']
+2023-10-13 08:17:54,681 DEBUG    root            Running [gcloud.config.list] with arguments: [--format: "value(core.account)"]
+2023-10-13 08:17:54,694 DEBUG    root            Chosen display Format:config value(core.account)
+2023-10-13 08:17:54,695 INFO     root            Display format: "config value(core.account)"
+2023-10-13 08:17:54,696 INFO     ___FILE_ONLY___ 1181571513-compute@developer.gserviceaccount.com
+
+2023-10-13 08:17:54,696 DEBUG    root            SDK update checks are disabled.

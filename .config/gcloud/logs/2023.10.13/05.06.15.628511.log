@@ -1,0 +1,8 @@
+2023-10-13 05:06:15,633 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2023-10-13 05:06:15,646 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'get_value']
+2023-10-13 05:06:15,649 DEBUG    root            Running [gcloud.config.get-value] with arguments: [SECTION/PROPERTY: "project"]
+2023-10-13 05:06:15,658 DEBUG    root            Chosen display Format:value(.)
+2023-10-13 05:06:15,659 INFO     root            Display format: "value(.)"
+2023-10-13 05:06:15,659 INFO     ___FILE_ONLY___ ml-pipeline-project-401216
+
+2023-10-13 05:06:15,660 DEBUG    root            SDK update checks are disabled.
